@@ -54,6 +54,7 @@ angular.module('AppPrioritizer.graph', ['highcharts-ng'])
     xAxis: {
       min: -0.5,
       max: 10,
+      reversed: true,
       title: {
         text: 'Urgency'
       }
